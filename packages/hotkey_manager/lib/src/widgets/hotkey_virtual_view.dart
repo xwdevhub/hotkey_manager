@@ -28,17 +28,10 @@ class _VirtualKeyView extends StatelessWidget {
       ),
       child: Text(
         keyLabel,
-<<<<<<< HEAD:packages/hotkey_manager/lib/src/widgets/hotkey_virtual_view.dart
         style: TextStyle(
           color: Theme.of(context).textTheme.bodyMedium?.color,
           fontSize: 12,
         ),
-=======
-        // style: TextStyle(
-        //   // color: Theme.of(context).textTheme.bodyText2?.color,
-        //   fontSize: 12,
-        // ),
->>>>>>> 19bd384 (fix:删除flutter3.22.3 报错的代码):lib/src/widgets/hotkey_virtual_view.dart
       ),
     );
   }
